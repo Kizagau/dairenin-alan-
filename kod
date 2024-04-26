@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class dairee {
+    public static void main(String[] args) {
+        double yaricap , pi = 3.14 , alan , aci ;
+        Scanner girdi2 = new Scanner(System.in);
+        System.out.print("Açıyı Giriniz :");
+        aci = girdi2.nextDouble();
+
+
+        Scanner girdi = new Scanner(System.in);
+        System.out.print("Yarıçapı Giriniz:");
+        yaricap = girdi.nextDouble();
+
+
+        alan = (pi * (yaricap * yaricap) * aci) / 360;
+
+        System.out.println("Daire Diliminin Alanı :" + alan);
+
+
+
+
+
+
+    }
+}
